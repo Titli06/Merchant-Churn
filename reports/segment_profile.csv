@@ -1,0 +1,4 @@
+segment_id,merchants,avg_monthly_tpv,avg_monthly_txns,success_rate_3m_at_cutoff,sr_trend,recency_days,tenure_months,p90_gap_days,tickets_unresolved,degraded_issuer_exposure,churn_rate,segment_name,tpv_share
+0,1115,3897.27,9.333,0.8824,-0.0333,6.0,18.0,8.6,0.0,0.2195,0.2359,Fading long-tail,0.0619
+2,477,12968.01,44.0,0.8935,-0.0314,1.0,18.0,2.0,0.0,0.2009,0.1216,"High-value, payments-impaired",0.1184
+1,2837,17039.41,61.944,0.8971,-0.0284,1.0,18.0,2.0,0.0,0.1766,0.0691,Core healthy volume,0.8197

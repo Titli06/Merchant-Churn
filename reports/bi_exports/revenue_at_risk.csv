@@ -1,0 +1,4 @@
+status,merchants,monthly_tpv_at_risk,annualised_revenue_at_risk,avg_issuer_exposure,attributable_revenue_at_risk
+active,4275,115692074.96,5830880.58,0.2033,1845668.54
+confirmed_churn,1324,24631113.63,1241408.13,0.2161,465495.41
+at_risk,397,6784871.24,341957.51,0.1874,76009.95

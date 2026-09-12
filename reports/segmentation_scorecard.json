@@ -1,0 +1,85 @@
+{
+  "k_selection": [
+    {
+      "k": 3,
+      "silhouette": 0.2403,
+      "inertia": 33135.0
+    },
+    {
+      "k": 4,
+      "silhouette": 0.1805,
+      "inertia": 30045.5
+    },
+    {
+      "k": 5,
+      "silhouette": 0.1848,
+      "inertia": 27440.5
+    },
+    {
+      "k": 6,
+      "silhouette": 0.1688,
+      "inertia": 25509.7
+    },
+    {
+      "k": 7,
+      "silhouette": 0.1726,
+      "inertia": 24078.0
+    },
+    {
+      "k": 8,
+      "silhouette": 0.184,
+      "inertia": 22688.0
+    }
+  ],
+  "chosen_k": 3,
+  "segments": [
+    {
+      "segment_id": 0,
+      "merchants": 1115,
+      "avg_monthly_tpv": 3897.27,
+      "avg_monthly_txns": 9.333,
+      "success_rate_3m_at_cutoff": 0.8824,
+      "sr_trend": -0.0333,
+      "recency_days": 6.0,
+      "tenure_months": 18.0,
+      "p90_gap_days": 8.6,
+      "tickets_unresolved": 0.0,
+      "degraded_issuer_exposure": 0.2195,
+      "churn_rate": 0.2359,
+      "segment_name": "Fading long-tail",
+      "tpv_share": 0.0619
+    },
+    {
+      "segment_id": 2,
+      "merchants": 477,
+      "avg_monthly_tpv": 12968.01,
+      "avg_monthly_txns": 44.0,
+      "success_rate_3m_at_cutoff": 0.8935,
+      "sr_trend": -0.0314,
+      "recency_days": 1.0,
+      "tenure_months": 18.0,
+      "p90_gap_days": 2.0,
+      "tickets_unresolved": 0.0,
+      "degraded_issuer_exposure": 0.2009,
+      "churn_rate": 0.1216,
+      "segment_name": "High-value, payments-impaired",
+      "tpv_share": 0.1184
+    },
+    {
+      "segment_id": 1,
+      "merchants": 2837,
+      "avg_monthly_tpv": 17039.41,
+      "avg_monthly_txns": 61.944,
+      "success_rate_3m_at_cutoff": 0.8971,
+      "sr_trend": -0.0284,
+      "recency_days": 1.0,
+      "tenure_months": 18.0,
+      "p90_gap_days": 2.0,
+      "tickets_unresolved": 0.0,
+      "degraded_issuer_exposure": 0.1766,
+      "churn_rate": 0.0691,
+      "segment_name": "Core healthy volume",
+      "tpv_share": 0.8197
+    }
+  ]
+}

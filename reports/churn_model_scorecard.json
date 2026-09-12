@@ -1,0 +1,141 @@
+{
+  "metrics": {
+    "n_train": 3100,
+    "n_test": 1329,
+    "base_rate": 0.1167,
+    "logistic": {
+      "roc_auc": 0.7144,
+      "pr_auc": 0.2877,
+      "brier": 0.0945
+    },
+    "gbm_benchmark": {
+      "roc_auc": 0.675,
+      "pr_auc": 0.2442,
+      "brier": 0.1
+    }
+  },
+  "coefficient_recovery": [
+    {
+      "feature": "success_rate_3m_at_cutoff",
+      "planted_term": "sr_shortfall",
+      "planted_coef": 9.0,
+      "expected_sign": "-",
+      "recovered_coef": -0.2736,
+      "recovered_sign": "-",
+      "sign_matches": true,
+      "significant": true
+    },
+    {
+      "feature": "avg_settlement_delay_days",
+      "planted_term": "settle_delay_days",
+      "planted_coef": 0.185,
+      "expected_sign": "+",
+      "recovered_coef": 0.0983,
+      "recovered_sign": "+",
+      "sign_matches": true,
+      "significant": false
+    },
+    {
+      "feature": "tickets_unresolved",
+      "planted_term": "open_tickets",
+      "planted_coef": 0.29,
+      "expected_sign": "+",
+      "recovered_coef": 0.0094,
+      "recovered_sign": "+",
+      "sign_matches": true,
+      "significant": false
+    },
+    {
+      "feature": "tenure_months",
+      "planted_term": "tenure_months",
+      "planted_coef": -0.062,
+      "expected_sign": "-",
+      "recovered_coef": -0.3652,
+      "recovered_sign": "-",
+      "sign_matches": true,
+      "significant": true
+    },
+    {
+      "feature": "competitor_density",
+      "planted_term": "competitor_density",
+      "planted_coef": 0.87,
+      "expected_sign": "+",
+      "recovered_coef": 0.3334,
+      "recovered_sign": "+",
+      "sign_matches": true,
+      "significant": true
+    },
+    {
+      "feature": "avg_monthly_txns",
+      "planted_term": "log_txn_volume",
+      "planted_coef": -0.31,
+      "expected_sign": "-",
+      "recovered_coef": -0.3086,
+      "recovered_sign": "-",
+      "sign_matches": true,
+      "significant": false
+    }
+  ],
+  "decile_lift": [
+    {
+      "decile": 1,
+      "merchants": 133,
+      "churn_rate": 0.0301,
+      "lift_vs_base": 0.26
+    },
+    {
+      "decile": 2,
+      "merchants": 133,
+      "churn_rate": 0.0451,
+      "lift_vs_base": 0.39
+    },
+    {
+      "decile": 3,
+      "merchants": 133,
+      "churn_rate": 0.0451,
+      "lift_vs_base": 0.39
+    },
+    {
+      "decile": 4,
+      "merchants": 133,
+      "churn_rate": 0.0677,
+      "lift_vs_base": 0.58
+    },
+    {
+      "decile": 5,
+      "merchants": 133,
+      "churn_rate": 0.1053,
+      "lift_vs_base": 0.9
+    },
+    {
+      "decile": 6,
+      "merchants": 132,
+      "churn_rate": 0.0833,
+      "lift_vs_base": 0.71
+    },
+    {
+      "decile": 7,
+      "merchants": 133,
+      "churn_rate": 0.1128,
+      "lift_vs_base": 0.97
+    },
+    {
+      "decile": 8,
+      "merchants": 133,
+      "churn_rate": 0.1805,
+      "lift_vs_base": 1.55
+    },
+    {
+      "decile": 9,
+      "merchants": 133,
+      "churn_rate": 0.1729,
+      "lift_vs_base": 1.48
+    },
+    {
+      "decile": 10,
+      "merchants": 133,
+      "churn_rate": 0.3233,
+      "lift_vs_base": 2.77
+    }
+  ]
+}

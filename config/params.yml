@@ -1,0 +1,134 @@
+# ---------------------------------------------------------------------------
+# Simulation + analysis parameters.
+#
+# Everything the *generator* needs lives under `dgp`. Everything the *analysis*
+# needs lives under `analysis`. The analysis code is not allowed to read `dgp`
+# -- that separation is what makes the recovered coefficients meaningful rather
+# than circular. See README section "Why synthetic data, and how it is kept honest".
+# ---------------------------------------------------------------------------
+
+dgp:
+  seed: 20260812
+  n_merchants: 6000
+  start_month: "2024-08"
+  n_months: 24
+  # Category txn_rate values below are per merchant-month at full intensity.
+  # The panel modelled here is a mid-market acceptance sample, so rates are
+  # scaled down uniformly. Changing this scales dataset size linearly.
+  txn_rate_scale: 0.5
+
+  # Merchant mix -------------------------------------------------------------
+  categories:
+    kirana:       {share: 0.28, txn_rate: 210, ticket_mu: 4.6, ticket_sigma: 0.75}
+    restaurant:   {share: 0.16, txn_rate: 165, ticket_mu: 5.5, ticket_sigma: 0.70}
+    pharmacy:     {share: 0.09, txn_rate: 120, ticket_mu: 5.3, ticket_sigma: 0.80}
+    grocery:      {share: 0.13, txn_rate: 175, ticket_mu: 5.8, ticket_sigma: 0.72}
+    apparel:      {share: 0.10, txn_rate:  55, ticket_mu: 6.6, ticket_sigma: 0.85}
+    electronics:  {share: 0.05, txn_rate:  28, ticket_mu: 7.9, ticket_sigma: 0.95}
+    fuel:         {share: 0.07, txn_rate: 320, ticket_mu: 6.2, ticket_sigma: 0.55}
+    salon:        {share: 0.07, txn_rate:  70, ticket_mu: 5.9, ticket_sigma: 0.65}
+    services:     {share: 0.05, txn_rate:  45, ticket_mu: 6.4, ticket_sigma: 0.90}
+
+  city_tiers:
+    tier_1: {share: 0.22, txn_mult: 1.35, competitor_density: 0.82}
+    tier_2: {share: 0.31, txn_mult: 1.05, competitor_density: 0.58}
+    tier_3: {share: 0.47, txn_mult: 0.78, competitor_density: 0.31}
+
+  acquisition_channels:
+    field_sales:  {share: 0.41, quality: 0.22}
+    self_serve:   {share: 0.27, quality: -0.35}
+    referral:     {share: 0.19, quality: 0.41}
+    partner_bank: {share: 0.13, quality: 0.08}
+
+  devices:
+    qr_static:  {share: 0.44, txn_mult: 0.85}
+    soundbox:   {share: 0.36, txn_mult: 1.22}
+    qr_dynamic: {share: 0.13, txn_mult: 1.05}
+    pos:        {share: 0.07, txn_mult: 1.40}
+
+  # Issuer banks. `base_sr` is the steady-state technical success rate.
+  # `share` is the national share of payer-side volume.
+  issuer_banks:
+    "HDFC":        {share: 0.152, base_sr: 0.962}
+    "SBI":         {share: 0.191, base_sr: 0.921}
+    "ICICI":       {share: 0.118, base_sr: 0.958}
+    "AXIS":        {share: 0.094, base_sr: 0.949}
+    "KOTAK":       {share: 0.061, base_sr: 0.955}
+    "PNB":         {share: 0.072, base_sr: 0.907}
+    "BOB":         {share: 0.058, base_sr: 0.913}
+    "CANARA":      {share: 0.049, base_sr: 0.911}
+    "UNION":       {share: 0.044, base_sr: 0.904}
+    "YES":         {share: 0.038, base_sr: 0.944}
+    "IDFC":        {share: 0.031, base_sr: 0.951}
+    "AU_SFB":      {share: 0.022, base_sr: 0.933}
+    "PAYTM_PB":    {share: 0.028, base_sr: 0.939}
+    "RRB_GRAMIN":  {share: 0.042, base_sr: 0.868}
+
+  # The planted incident. One large issuer degrades for a stretch of months.
+  # The analyst is NOT told this exists; it has to be found from the data.
+  incident:
+    bank: "SBI"
+    start_month_index: 13
+    end_month_index: 17
+    sr_drop: 0.185          # absolute SR points lost at peak
+    ramp_months: 2          # ramp in / ramp out so it is not a step function
+
+  # Rural-bank drift: a slow, less dramatic degradation that acts as a decoy.
+  decoy:
+    bank: "RRB_GRAMIN"
+    start_month_index: 6
+    sr_drop: 0.055
+
+  # Churn hazard. Log-odds contributions, applied per merchant-month.
+  # These are the "true" coefficients the logistic model should approximately
+  # recover in src/churn_model.py.
+  hazard:
+    intercept: -3.15
+    sr_shortfall: 9.00        # per 1.0 of (0.95 - trailing_sr), clipped at 0
+    settle_delay_days: 0.185
+    open_tickets: 0.290
+    tenure_months: -0.062     # survivorship: older merchants are stickier
+    early_life_bonus: 0.640   # extra hazard in first 3 months
+    competitor_density: 0.870
+    acq_quality: -1.00        # multiplier on channel quality score
+    log_txn_volume: -0.310
+    seasonal_amplitude: 0.22
+
+  reactivation_prob: 0.055    # a churned merchant can come back
+
+  # Dormancy: a merchant goes quiet for a month or three and then resumes.
+  # They are NOT churned. This is the population that a fixed 30-day window
+  # misclassifies, and it is why the churn definition in sql/02 is adaptive.
+  dormancy:
+    base_prob: 0.055
+    max_months: 3
+    category_mult:
+      apparel: 2.3
+      electronics: 2.6
+      services: 1.9
+      salon: 1.3
+
+  settlement:
+    base_delay_days: 1.0
+    delayed_share: 0.12       # merchants on a chronically slower settlement path
+    delayed_extra_days: 2.4
+
+  support_tickets:
+    base_rate: 0.09           # tickets per merchant-month at healthy SR
+    sr_sensitivity: 5.5       # extra tickets when SR is bad
+    resolve_prob: 0.72
+
+analysis:
+  # Reference date for the churn snapshot = last day of the final month.
+  observation_window_days: 30
+  # A merchant is "expected" to transact if their historical p90 inter-txn gap
+  # is below this. Above it, they are structurally low-frequency and the naive
+  # 30-day rule would misclassify them.
+  min_months_history_for_baseline: 3
+  churn_gap_multiplier: 2.0   # gap > 2x their own p90 historical gap
+  rfm_quantiles: 5
+  kmeans_k_range: [3, 4, 5, 6, 7, 8]
+  kmeans_k_final: 5
+  forecast_horizon_months: 6
+  forecast_holdout_months: 5
+  take_rate_bps: 42           # revenue basis points on TPV, for revenue-at-risk

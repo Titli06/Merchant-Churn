@@ -1,0 +1,81 @@
+{
+  "series_length_months": 24,
+  "holdout_months": 5,
+  "horizon_months": 6,
+  "scores": [
+    {
+      "model": "drift",
+      "mape_pct": 7.138,
+      "mae_inr": 8459156.0
+    },
+    {
+      "model": "holt_damped",
+      "mape_pct": 8.897,
+      "mae_inr": 10599402.0
+    },
+    {
+      "model": "sarimax_no_intervention",
+      "mape_pct": 9.056,
+      "mae_inr": 10740805.0
+    },
+    {
+      "model": "naive_last_value",
+      "mape_pct": 11.353,
+      "mae_inr": 13427251.0
+    },
+    {
+      "model": "sarimax_with_intervention",
+      "mape_pct": 14.339,
+      "mae_inr": 16911824.0
+    },
+    {
+      "model": "seasonal_naive",
+      "mape_pct": 20.128,
+      "mae_inr": 23599840.0
+    }
+  ],
+  "best_model": "drift",
+  "best_mape_pct": 7.138,
+  "naive_mape_pct": 11.353,
+  "beats_naive_benchmark": true,
+  "intervention_coef": 5168155.929999966,
+  "forecast": [
+    {
+      "month": "2026-08-01",
+      "tpv_inr": 111643391.70326623,
+      "lo80": 100738426.02515757,
+      "hi80": 122548357.3813749
+    },
+    {
+      "month": "2026-09-01",
+      "tpv_inr": 111614374.56833918,
+      "lo80": 94995329.9047728,
+      "hi80": 128233419.23190556
+    },
+    {
+      "month": "2026-10-01",
+      "tpv_inr": 111618477.17868458,
+      "lo80": 90937105.9496805,
+      "hi80": 132299848.40768865
+    },
+    {
+      "month": "2026-11-01",
+      "tpv_inr": 111617897.12790808,
+      "lo80": 87533633.32615657,
+      "hi80": 135702160.92965958
+    },
+    {
+      "month": "2026-12-01",
+      "tpv_inr": 111617979.13884136,
+      "lo80": 84557485.83033527,
+      "hi80": 138678472.44734746
+    },
+    {
+      "month": "2027-01-01",
+      "tpv_inr": 111617967.54366134,
+      "lo80": 81877339.36420655,
+      "hi80": 141358595.72311613
+    }
+  ],
+  "caveat": "24 monthly observations cannot jointly identify trend, a 12-period seasonal cycle and an intervention. Seasonal terms are reported as a benchmark only and should not be read as an estimated seasonality."
+}

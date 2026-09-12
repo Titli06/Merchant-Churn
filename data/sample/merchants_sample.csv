@@ -1,0 +1,501 @@
+merchant_id,category,city_tier,acquisition_channel,device_type,state,cohort_month_index,gst_registered,slow_settlement,competitor_density,onboarded_month,onboarded_before_window
+MID100000,kirana,tier_3,field_sales,soundbox,Madhya Pradesh,20,False,False,0.2606,2026-04,False
+MID100001,salon,tier_2,referral,qr_static,Maharashtra,-26,True,False,0.4779,2024-08,True
+MID100002,kirana,tier_1,self_serve,qr_dynamic,Andhra Pradesh,-1,False,False,0.8114,2024-08,True
+MID100003,electronics,tier_1,self_serve,qr_static,Karnataka,8,True,False,0.7817,2025-04,False
+MID100004,restaurant,tier_2,referral,qr_static,Madhya Pradesh,0,True,False,0.5751,2024-08,False
+MID100005,kirana,tier_3,self_serve,qr_static,Rajasthan,-28,True,False,0.2234,2024-08,True
+MID100006,grocery,tier_3,field_sales,qr_static,Maharashtra,-19,False,True,0.2197,2024-08,True
+MID100007,kirana,tier_1,referral,qr_dynamic,Maharashtra,-25,True,False,0.8192,2024-08,True
+MID100008,pharmacy,tier_2,field_sales,qr_static,Maharashtra,-9,False,False,0.6297,2024-08,True
+MID100009,kirana,tier_3,referral,qr_static,West Bengal,12,True,False,0.4296,2025-08,False
+MID100010,salon,tier_2,self_serve,soundbox,West Bengal,10,True,False,0.4981,2025-06,False
+MID100011,grocery,tier_1,referral,soundbox,Maharashtra,20,True,False,0.8555,2026-04,False
+MID100012,fuel,tier_2,partner_bank,soundbox,Gujarat,15,True,False,0.6253,2025-11,False
+MID100013,pharmacy,tier_3,partner_bank,soundbox,Gujarat,15,False,False,0.517,2025-11,False
+MID100014,restaurant,tier_3,field_sales,qr_static,Maharashtra,-24,False,False,0.3131,2024-08,True
+MID100015,services,tier_3,field_sales,soundbox,Rajasthan,-24,False,False,0.5001,2024-08,True
+MID100016,apparel,tier_2,field_sales,qr_dynamic,Rajasthan,-12,False,False,0.6721,2024-08,True
+MID100017,salon,tier_1,partner_bank,soundbox,Kerala,-24,True,False,0.7963,2024-08,True
+MID100018,salon,tier_2,referral,qr_static,Punjab,-24,True,False,0.5813,2024-08,True
+MID100019,kirana,tier_3,self_serve,soundbox,Maharashtra,-6,False,False,0.3291,2024-08,True
+MID100020,salon,tier_3,field_sales,qr_static,Karnataka,4,False,False,0.1677,2024-12,False
+MID100021,kirana,tier_2,self_serve,pos,Uttar Pradesh,-29,False,False,0.7554,2024-08,True
+MID100022,restaurant,tier_2,self_serve,qr_static,Kerala,-3,True,False,0.6397,2024-08,True
+MID100023,restaurant,tier_3,referral,soundbox,Bihar,5,False,False,0.1206,2025-01,False
+MID100024,grocery,tier_2,referral,soundbox,Rajasthan,9,True,False,0.4318,2025-05,False
+MID100025,apparel,tier_2,referral,soundbox,Uttar Pradesh,-20,False,False,0.6218,2024-08,True
+MID100026,pharmacy,tier_3,self_serve,soundbox,West Bengal,-22,False,False,0.4426,2024-08,True
+MID100027,restaurant,tier_3,self_serve,qr_dynamic,Maharashtra,-16,False,False,0.2776,2024-08,True
+MID100028,kirana,tier_2,field_sales,qr_static,Maharashtra,-21,False,False,0.5518,2024-08,True
+MID100029,kirana,tier_3,field_sales,qr_static,Tamil Nadu,-27,False,False,0.3331,2024-08,True
+MID100030,apparel,tier_1,self_serve,qr_dynamic,Uttar Pradesh,11,True,False,0.7971,2025-07,False
+MID100031,kirana,tier_3,self_serve,qr_static,Punjab,17,False,False,0.4539,2026-01,False
+MID100032,kirana,tier_1,self_serve,soundbox,Odisha,-17,False,False,0.6942,2024-08,True
+MID100033,restaurant,tier_1,field_sales,qr_static,Uttar Pradesh,0,True,True,0.8586,2024-08,False
+MID100034,pharmacy,tier_3,field_sales,qr_static,Karnataka,-11,False,False,0.2754,2024-08,True
+MID100035,services,tier_3,partner_bank,qr_dynamic,Maharashtra,-9,False,False,0.3331,2024-08,True
+MID100036,restaurant,tier_3,self_serve,soundbox,Uttar Pradesh,-21,False,True,0.3567,2024-08,True
+MID100037,salon,tier_3,field_sales,qr_static,Uttar Pradesh,-10,False,False,0.3706,2024-08,True
+MID100038,kirana,tier_1,self_serve,qr_static,Maharashtra,-24,True,False,0.7537,2024-08,True
+MID100039,restaurant,tier_3,referral,soundbox,West Bengal,-16,False,False,0.2598,2024-08,True
+MID100040,kirana,tier_2,self_serve,qr_static,Maharashtra,-5,True,False,0.5848,2024-08,True
+MID100041,electronics,tier_2,self_serve,qr_static,Kerala,-10,False,False,0.3458,2024-08,True
+MID100042,pharmacy,tier_3,self_serve,qr_dynamic,Madhya Pradesh,19,False,False,0.3313,2026-03,False
+MID100043,grocery,tier_1,self_serve,soundbox,Uttar Pradesh,-20,False,False,0.6641,2024-08,True
+MID100044,restaurant,tier_1,field_sales,qr_static,Maharashtra,13,True,False,0.7883,2025-09,False
+MID100045,kirana,tier_3,field_sales,qr_static,Maharashtra,-12,True,True,0.4022,2024-08,True
+MID100046,kirana,tier_1,field_sales,soundbox,West Bengal,6,False,False,0.9294,2025-02,False
+MID100047,pharmacy,tier_1,referral,qr_dynamic,Maharashtra,20,True,True,0.8473,2026-04,False
+MID100048,salon,tier_2,referral,qr_dynamic,Rajasthan,17,False,False,0.4528,2026-01,False
+MID100049,salon,tier_1,field_sales,qr_static,Andhra Pradesh,0,False,False,0.8063,2024-08,False
+MID100050,kirana,tier_3,field_sales,qr_static,West Bengal,-13,False,False,0.375,2024-08,True
+MID100051,kirana,tier_3,field_sales,soundbox,Telangana,5,False,False,0.237,2025-01,False
+MID100052,salon,tier_1,self_serve,qr_static,Uttar Pradesh,6,True,False,0.9075,2025-02,False
+MID100053,electronics,tier_3,field_sales,soundbox,Maharashtra,5,True,True,0.3027,2025-01,False
+MID100054,fuel,tier_2,field_sales,qr_dynamic,Maharashtra,-18,True,True,0.6336,2024-08,True
+MID100055,restaurant,tier_3,field_sales,pos,Uttar Pradesh,14,True,False,0.406,2025-10,False
+MID100056,pharmacy,tier_3,self_serve,soundbox,Punjab,-15,False,False,0.3286,2024-08,True
+MID100057,kirana,tier_3,field_sales,pos,Assam,-27,False,False,0.3043,2024-08,True
+MID100058,services,tier_2,field_sales,soundbox,Assam,-18,False,True,0.5982,2024-08,True
+MID100059,grocery,tier_1,field_sales,soundbox,Uttar Pradesh,2,False,True,0.8937,2024-10,False
+MID100060,kirana,tier_1,field_sales,qr_dynamic,Maharashtra,-26,True,False,0.8642,2024-08,True
+MID100061,electronics,tier_1,field_sales,qr_static,Tamil Nadu,16,True,False,0.803,2025-12,False
+MID100062,restaurant,tier_3,field_sales,soundbox,Uttar Pradesh,-8,True,False,0.0624,2024-08,True
+MID100063,fuel,tier_2,self_serve,soundbox,Rajasthan,4,True,False,0.6251,2024-12,False
+MID100064,pharmacy,tier_2,referral,soundbox,Bihar,9,False,True,0.505,2025-05,False
+MID100065,pharmacy,tier_2,self_serve,qr_dynamic,Karnataka,-2,False,False,0.5759,2024-08,True
+MID100066,restaurant,tier_1,self_serve,qr_dynamic,Karnataka,16,True,False,0.7957,2025-12,False
+MID100067,pharmacy,tier_2,field_sales,soundbox,Maharashtra,2,False,False,0.4544,2024-10,False
+MID100068,grocery,tier_1,self_serve,soundbox,Assam,0,False,False,0.8107,2024-08,False
+MID100069,kirana,tier_2,field_sales,soundbox,Uttar Pradesh,-15,False,False,0.5931,2024-08,True
+MID100070,restaurant,tier_3,self_serve,qr_static,Maharashtra,18,True,False,0.2986,2026-02,False
+MID100071,electronics,tier_2,field_sales,soundbox,Maharashtra,12,False,False,0.5598,2025-08,False
+MID100072,restaurant,tier_1,referral,qr_static,West Bengal,2,True,False,0.8288,2024-10,False
+MID100073,salon,tier_3,partner_bank,qr_dynamic,Bihar,-11,True,False,0.3544,2024-08,True
+MID100074,apparel,tier_3,field_sales,qr_static,Gujarat,-6,False,False,0.2597,2024-08,True
+MID100075,salon,tier_1,field_sales,soundbox,Tamil Nadu,4,True,False,0.99,2024-12,False
+MID100076,apparel,tier_3,self_serve,qr_static,Maharashtra,3,False,True,0.0903,2024-11,False
+MID100077,salon,tier_3,referral,soundbox,Gujarat,18,True,True,0.2204,2026-02,False
+MID100078,pharmacy,tier_3,partner_bank,soundbox,Maharashtra,-6,False,False,0.3354,2024-08,True
+MID100079,salon,tier_2,self_serve,qr_static,Tamil Nadu,16,False,False,0.5789,2025-12,False
+MID100080,restaurant,tier_1,field_sales,soundbox,Andhra Pradesh,15,True,False,0.9242,2025-11,False
+MID100081,grocery,tier_1,self_serve,soundbox,Odisha,-1,False,False,0.7724,2024-08,True
+MID100082,salon,tier_1,field_sales,qr_static,Karnataka,-1,False,False,0.9122,2024-08,True
+MID100083,apparel,tier_2,self_serve,qr_static,Bihar,16,False,False,0.4595,2025-12,False
+MID100084,salon,tier_1,referral,qr_static,Uttar Pradesh,-25,False,False,0.9324,2024-08,True
+MID100085,grocery,tier_2,field_sales,pos,Uttar Pradesh,-2,False,False,0.5384,2024-08,True
+MID100086,kirana,tier_2,field_sales,soundbox,Maharashtra,4,False,False,0.6079,2024-12,False
+MID100087,pharmacy,tier_3,field_sales,pos,Telangana,-16,False,False,0.2654,2024-08,True
+MID100088,grocery,tier_3,field_sales,qr_static,Assam,13,False,False,0.1907,2025-09,False
+MID100089,grocery,tier_3,field_sales,soundbox,Tamil Nadu,8,False,True,0.2116,2025-04,False
+MID100090,salon,tier_1,partner_bank,qr_static,Odisha,6,True,False,0.99,2025-02,False
+MID100091,grocery,tier_3,field_sales,qr_static,Maharashtra,-7,False,False,0.3815,2024-08,True
+MID100092,apparel,tier_2,field_sales,qr_static,Maharashtra,-23,False,False,0.4045,2024-08,True
+MID100093,restaurant,tier_3,self_serve,qr_static,Madhya Pradesh,-10,True,False,0.3714,2024-08,True
+MID100094,pharmacy,tier_3,self_serve,qr_static,West Bengal,-21,False,False,0.4115,2024-08,True
+MID100095,electronics,tier_2,field_sales,qr_dynamic,Rajasthan,8,True,False,0.6313,2025-04,False
+MID100096,apparel,tier_2,partner_bank,soundbox,Maharashtra,16,True,False,0.6058,2025-12,False
+MID100097,electronics,tier_3,referral,qr_static,Tamil Nadu,-5,False,False,0.3055,2024-08,True
+MID100098,kirana,tier_1,referral,qr_static,West Bengal,-20,True,False,0.752,2024-08,True
+MID100099,grocery,tier_3,referral,qr_static,Karnataka,-13,False,False,0.2308,2024-08,True
+MID100100,kirana,tier_3,field_sales,qr_static,Bihar,-19,False,False,0.0575,2024-08,True
+MID100101,apparel,tier_3,field_sales,qr_dynamic,Bihar,0,False,True,0.3676,2024-08,False
+MID100102,kirana,tier_2,referral,qr_dynamic,Maharashtra,10,True,False,0.5819,2025-06,False
+MID100103,salon,tier_1,self_serve,soundbox,Rajasthan,-13,True,False,0.8398,2024-08,True
+MID100104,services,tier_2,referral,qr_static,Punjab,-1,True,False,0.5615,2024-08,True
+MID100105,kirana,tier_3,field_sales,qr_static,Bihar,21,False,True,0.265,2026-05,False
+MID100106,grocery,tier_2,partner_bank,qr_static,Bihar,0,False,True,0.5277,2024-08,False
+MID100107,restaurant,tier_2,referral,pos,Bihar,-1,True,False,0.5799,2024-08,True
+MID100108,kirana,tier_2,partner_bank,qr_static,Kerala,-20,True,False,0.4826,2024-08,True
+MID100109,fuel,tier_2,field_sales,qr_dynamic,Rajasthan,-2,False,True,0.4813,2024-08,True
+MID100110,salon,tier_1,field_sales,qr_static,Kerala,6,False,False,0.893,2025-02,False
+MID100111,pharmacy,tier_2,partner_bank,soundbox,Telangana,0,False,False,0.6197,2024-08,False
+MID100112,kirana,tier_3,partner_bank,soundbox,Gujarat,-5,False,False,0.3617,2024-08,True
+MID100113,kirana,tier_1,self_serve,soundbox,Bihar,-7,True,False,0.8662,2024-08,True
+MID100114,kirana,tier_2,referral,soundbox,Bihar,12,False,False,0.5521,2025-08,False
+MID100115,grocery,tier_2,field_sales,qr_static,Karnataka,6,True,False,0.5385,2025-02,False
+MID100116,kirana,tier_3,self_serve,soundbox,Maharashtra,-5,False,False,0.3299,2024-08,True
+MID100117,kirana,tier_3,field_sales,qr_dynamic,Gujarat,-19,False,False,0.3316,2024-08,True
+MID100118,kirana,tier_2,field_sales,soundbox,Andhra Pradesh,-11,False,True,0.594,2024-08,True
+MID100119,grocery,tier_1,self_serve,soundbox,Gujarat,-10,True,True,0.6859,2024-08,True
+MID100120,pharmacy,tier_2,field_sales,soundbox,Karnataka,19,True,False,0.4679,2026-03,False
+MID100121,restaurant,tier_3,partner_bank,soundbox,Assam,-6,False,False,0.3972,2024-08,True
+MID100122,services,tier_3,field_sales,soundbox,Karnataka,16,False,True,0.241,2025-12,False
+MID100123,salon,tier_1,field_sales,soundbox,Uttar Pradesh,-20,True,True,0.7382,2024-08,True
+MID100124,grocery,tier_2,field_sales,soundbox,Uttar Pradesh,-19,False,False,0.7284,2024-08,True
+MID100125,pharmacy,tier_1,self_serve,qr_static,Punjab,7,True,False,0.6707,2025-03,False
+MID100126,fuel,tier_3,field_sales,soundbox,Bihar,10,True,False,0.1504,2025-06,False
+MID100127,restaurant,tier_2,field_sales,pos,Bihar,12,False,False,0.5108,2025-08,False
+MID100128,kirana,tier_3,field_sales,pos,Uttar Pradesh,7,False,False,0.3966,2025-03,False
+MID100129,restaurant,tier_2,field_sales,soundbox,Tamil Nadu,8,True,False,0.5872,2025-04,False
+MID100130,kirana,tier_2,field_sales,qr_dynamic,Maharashtra,-18,False,False,0.5376,2024-08,True
+MID100131,apparel,tier_3,self_serve,soundbox,Assam,21,False,False,0.3248,2026-05,False
+MID100132,restaurant,tier_2,referral,soundbox,Maharashtra,-14,True,False,0.5826,2024-08,True
+MID100133,salon,tier_3,self_serve,qr_dynamic,Uttar Pradesh,-21,False,False,0.3216,2024-08,True
+MID100134,fuel,tier_1,field_sales,qr_static,Karnataka,-23,True,False,0.7461,2024-08,True
+MID100135,salon,tier_3,referral,qr_dynamic,Odisha,-15,False,False,0.2152,2024-08,True
+MID100136,restaurant,tier_2,referral,soundbox,Tamil Nadu,1,True,False,0.4745,2024-09,False
+MID100137,kirana,tier_2,referral,qr_static,Tamil Nadu,-17,True,False,0.6009,2024-08,True
+MID100138,restaurant,tier_3,partner_bank,qr_static,Bihar,20,False,False,0.2351,2026-04,False
+MID100139,fuel,tier_3,field_sales,qr_dynamic,Bihar,-14,True,False,0.3249,2024-08,True
+MID100140,restaurant,tier_2,self_serve,qr_static,West Bengal,8,True,False,0.5638,2025-04,False
+MID100141,pharmacy,tier_2,referral,qr_static,Maharashtra,17,False,True,0.5097,2026-01,False
+MID100142,restaurant,tier_3,partner_bank,soundbox,Madhya Pradesh,4,False,False,0.2697,2024-12,False
+MID100143,salon,tier_3,partner_bank,qr_static,Uttar Pradesh,-16,False,False,0.2371,2024-08,True
+MID100144,salon,tier_3,partner_bank,qr_static,Gujarat,-7,False,False,0.3716,2024-08,True
+MID100145,restaurant,tier_3,referral,soundbox,Andhra Pradesh,-9,False,False,0.4517,2024-08,True
+MID100146,restaurant,tier_2,self_serve,qr_static,Haryana,3,True,False,0.5522,2024-11,False
+MID100147,restaurant,tier_2,self_serve,soundbox,Odisha,20,True,False,0.5154,2026-04,False
+MID100148,kirana,tier_2,self_serve,soundbox,Odisha,6,False,True,0.5732,2025-02,False
+MID100149,services,tier_2,referral,qr_dynamic,Rajasthan,7,False,False,0.5118,2025-03,False
+MID100150,kirana,tier_2,referral,soundbox,Punjab,-25,False,True,0.5993,2024-08,True
+MID100151,fuel,tier_3,field_sales,qr_static,Uttar Pradesh,-9,False,False,0.3198,2024-08,True
+MID100152,pharmacy,tier_3,self_serve,soundbox,Uttar Pradesh,4,True,False,0.3547,2024-12,False
+MID100153,grocery,tier_1,field_sales,soundbox,Assam,-27,True,False,0.6428,2024-08,True
+MID100154,electronics,tier_3,referral,qr_dynamic,Karnataka,13,False,False,0.131,2025-09,False
+MID100155,grocery,tier_2,referral,soundbox,Andhra Pradesh,12,False,False,0.6713,2025-08,False
+MID100156,grocery,tier_3,referral,qr_static,Uttar Pradesh,-15,False,False,0.2665,2024-08,True
+MID100157,restaurant,tier_2,self_serve,pos,Rajasthan,9,False,False,0.6108,2025-05,False
+MID100158,kirana,tier_2,partner_bank,qr_static,Odisha,-20,True,False,0.6772,2024-08,True
+MID100159,electronics,tier_3,referral,qr_static,Maharashtra,1,True,False,0.1494,2024-09,False
+MID100160,kirana,tier_3,field_sales,qr_static,Kerala,8,False,False,0.1875,2025-04,False
+MID100161,kirana,tier_3,field_sales,qr_dynamic,Telangana,-4,True,False,0.2862,2024-08,True
+MID100162,restaurant,tier_3,field_sales,soundbox,Gujarat,21,False,False,0.3559,2026-05,False
+MID100163,services,tier_2,field_sales,qr_static,Karnataka,-12,True,False,0.6675,2024-08,True
+MID100164,services,tier_3,partner_bank,qr_static,West Bengal,11,True,False,0.2814,2025-07,False
+MID100165,kirana,tier_3,field_sales,qr_static,Uttar Pradesh,-29,False,False,0.3271,2024-08,True
+MID100166,restaurant,tier_3,field_sales,pos,Tamil Nadu,-26,True,False,0.4959,2024-08,True
+MID100167,kirana,tier_3,self_serve,qr_static,Assam,-27,False,False,0.3356,2024-08,True
+MID100168,fuel,tier_2,field_sales,soundbox,Telangana,-24,True,False,0.6368,2024-08,True
+MID100169,fuel,tier_3,referral,qr_static,Andhra Pradesh,16,False,False,0.3782,2025-12,False
+MID100170,kirana,tier_3,referral,qr_dynamic,Assam,-8,True,False,0.2477,2024-08,True
+MID100171,fuel,tier_3,field_sales,qr_static,Telangana,-8,True,False,0.2589,2024-08,True
+MID100172,restaurant,tier_1,field_sales,soundbox,Gujarat,5,True,False,0.7295,2025-01,False
+MID100173,salon,tier_3,referral,qr_dynamic,Andhra Pradesh,20,True,True,0.3692,2026-04,False
+MID100174,kirana,tier_3,partner_bank,soundbox,Maharashtra,16,False,True,0.4837,2025-12,False
+MID100175,kirana,tier_1,field_sales,soundbox,Tamil Nadu,0,False,False,0.9718,2024-08,False
+MID100176,salon,tier_1,self_serve,qr_static,Odisha,14,True,False,0.7397,2025-10,False
+MID100177,restaurant,tier_2,referral,qr_static,Uttar Pradesh,-4,True,False,0.7409,2024-08,True
+MID100178,restaurant,tier_3,self_serve,qr_dynamic,Gujarat,-27,False,False,0.2417,2024-08,True
+MID100179,apparel,tier_3,field_sales,qr_static,Gujarat,-19,True,False,0.2603,2024-08,True
+MID100180,electronics,tier_1,field_sales,soundbox,Gujarat,-14,False,False,0.9122,2024-08,True
+MID100181,kirana,tier_1,referral,qr_static,Uttar Pradesh,-2,True,False,0.813,2024-08,True
+MID100182,pharmacy,tier_3,field_sales,qr_dynamic,Andhra Pradesh,0,False,False,0.2365,2024-08,False
+MID100183,grocery,tier_3,self_serve,qr_dynamic,Maharashtra,-23,False,False,0.2625,2024-08,True
+MID100184,kirana,tier_3,self_serve,soundbox,Uttar Pradesh,-13,False,False,0.429,2024-08,True
+MID100185,kirana,tier_3,referral,soundbox,Rajasthan,-13,False,False,0.2447,2024-08,True
+MID100186,pharmacy,tier_2,field_sales,qr_static,Kerala,-18,True,False,0.4941,2024-08,True
+MID100187,kirana,tier_1,field_sales,qr_static,Gujarat,6,True,False,0.7466,2025-02,False
+MID100188,pharmacy,tier_3,field_sales,qr_static,Andhra Pradesh,-28,True,False,0.3269,2024-08,True
+MID100189,fuel,tier_2,field_sales,qr_static,Uttar Pradesh,4,False,False,0.6296,2024-12,False
+MID100190,apparel,tier_2,self_serve,soundbox,West Bengal,-25,True,False,0.711,2024-08,True
+MID100191,apparel,tier_3,self_serve,soundbox,West Bengal,13,True,False,0.2807,2025-09,False
+MID100192,kirana,tier_1,referral,soundbox,Bihar,-23,False,False,0.8236,2024-08,True
+MID100193,electronics,tier_3,field_sales,soundbox,Assam,-22,False,False,0.3978,2024-08,True
+MID100194,kirana,tier_1,field_sales,qr_dynamic,West Bengal,-16,True,False,0.8243,2024-08,True
+MID100195,restaurant,tier_2,field_sales,qr_static,Uttar Pradesh,11,False,False,0.5803,2025-07,False
+MID100196,grocery,tier_3,field_sales,soundbox,West Bengal,6,False,False,0.2586,2025-02,False
+MID100197,services,tier_3,field_sales,soundbox,Kerala,-14,False,False,0.2566,2024-08,True
+MID100198,fuel,tier_3,partner_bank,soundbox,Telangana,-19,False,False,0.0823,2024-08,True
+MID100199,kirana,tier_2,self_serve,soundbox,Andhra Pradesh,-23,False,False,0.5271,2024-08,True
+MID100200,apparel,tier_3,referral,qr_static,Karnataka,-24,False,True,0.3581,2024-08,True
+MID100201,restaurant,tier_3,self_serve,qr_static,Uttar Pradesh,9,True,True,0.2787,2025-05,False
+MID100202,electronics,tier_1,field_sales,qr_dynamic,Karnataka,-5,False,False,0.7392,2024-08,True
+MID100203,salon,tier_1,field_sales,soundbox,Uttar Pradesh,7,True,False,0.7132,2025-03,False
+MID100204,electronics,tier_3,self_serve,soundbox,Rajasthan,21,False,False,0.4188,2026-05,False
+MID100205,grocery,tier_1,self_serve,qr_static,Kerala,17,False,False,0.9182,2026-01,False
+MID100206,apparel,tier_2,referral,soundbox,Maharashtra,19,False,False,0.4672,2026-03,False
+MID100207,restaurant,tier_2,field_sales,qr_dynamic,West Bengal,-10,False,False,0.6491,2024-08,True
+MID100208,kirana,tier_1,referral,soundbox,Gujarat,-19,False,False,0.9,2024-08,True
+MID100209,pharmacy,tier_3,field_sales,qr_static,Maharashtra,-3,True,False,0.254,2024-08,True
+MID100210,salon,tier_2,partner_bank,qr_static,Maharashtra,-3,True,False,0.5903,2024-08,True
+MID100211,kirana,tier_3,field_sales,pos,Uttar Pradesh,-29,False,False,0.3207,2024-08,True
+MID100212,restaurant,tier_3,referral,soundbox,Uttar Pradesh,-17,False,False,0.3885,2024-08,True
+MID100213,kirana,tier_1,partner_bank,qr_static,Uttar Pradesh,14,True,False,0.7007,2025-10,False
+MID100214,services,tier_1,field_sales,soundbox,West Bengal,10,False,False,0.9653,2025-06,False
+MID100215,pharmacy,tier_3,self_serve,qr_dynamic,Tamil Nadu,-24,True,False,0.3801,2024-08,True
+MID100216,restaurant,tier_3,field_sales,qr_static,Uttar Pradesh,5,False,False,0.3231,2025-01,False
+MID100217,salon,tier_1,referral,soundbox,Telangana,-10,True,False,0.8118,2024-08,True
+MID100218,kirana,tier_2,field_sales,qr_static,Maharashtra,1,False,False,0.6103,2024-09,False
+MID100219,fuel,tier_3,partner_bank,soundbox,Uttar Pradesh,-1,False,False,0.3956,2024-08,True
+MID100220,restaurant,tier_2,field_sales,qr_static,Madhya Pradesh,4,False,False,0.4738,2024-12,False
+MID100221,restaurant,tier_3,field_sales,qr_static,Telangana,-26,True,False,0.4764,2024-08,True
+MID100222,grocery,tier_2,referral,qr_dynamic,West Bengal,-26,False,False,0.6957,2024-08,True
+MID100223,apparel,tier_3,referral,qr_static,West Bengal,7,False,False,0.1911,2025-03,False
+MID100224,kirana,tier_3,self_serve,qr_static,Madhya Pradesh,7,False,True,0.4402,2025-03,False
+MID100225,salon,tier_1,field_sales,qr_static,Uttar Pradesh,-18,False,False,0.9097,2024-08,True
+MID100226,restaurant,tier_1,field_sales,qr_static,Maharashtra,-29,True,True,0.9206,2024-08,True
+MID100227,apparel,tier_2,referral,qr_static,Madhya Pradesh,-28,False,True,0.7739,2024-08,True
+MID100228,fuel,tier_1,self_serve,soundbox,Andhra Pradesh,-24,True,False,0.7506,2024-08,True
+MID100229,services,tier_3,field_sales,qr_static,Andhra Pradesh,0,False,False,0.2353,2024-08,False
+MID100230,electronics,tier_3,self_serve,soundbox,West Bengal,-19,False,True,0.2666,2024-08,True
+MID100231,restaurant,tier_1,field_sales,qr_static,Uttar Pradesh,15,True,True,0.7463,2025-11,False
+MID100232,apparel,tier_1,self_serve,soundbox,Haryana,17,True,False,0.7306,2026-01,False
+MID100233,restaurant,tier_2,referral,qr_static,Karnataka,17,False,False,0.6071,2026-01,False
+MID100234,restaurant,tier_1,partner_bank,qr_static,Gujarat,-29,True,False,0.7887,2024-08,True
+MID100235,salon,tier_1,self_serve,qr_dynamic,Gujarat,-18,True,False,0.7594,2024-08,True
+MID100236,pharmacy,tier_3,self_serve,pos,Tamil Nadu,17,True,False,0.3289,2026-01,False
+MID100237,restaurant,tier_3,field_sales,soundbox,Madhya Pradesh,-26,False,False,0.5076,2024-08,True
+MID100238,grocery,tier_2,referral,qr_static,Karnataka,-18,True,False,0.4355,2024-08,True
+MID100239,grocery,tier_1,field_sales,qr_static,Karnataka,7,True,False,0.8081,2025-03,False
+MID100240,grocery,tier_1,field_sales,qr_static,Maharashtra,16,False,False,0.872,2025-12,False
+MID100241,apparel,tier_3,field_sales,pos,Kerala,-12,True,False,0.2656,2024-08,True
+MID100242,kirana,tier_2,field_sales,qr_static,Maharashtra,-28,True,False,0.5891,2024-08,True
+MID100243,grocery,tier_2,self_serve,soundbox,Bihar,-27,True,False,0.6768,2024-08,True
+MID100244,electronics,tier_3,self_serve,qr_dynamic,Maharashtra,-27,True,False,0.4998,2024-08,True
+MID100245,electronics,tier_3,field_sales,qr_static,Tamil Nadu,1,False,False,0.3031,2024-09,False
+MID100246,kirana,tier_3,self_serve,soundbox,Uttar Pradesh,-10,False,False,0.3188,2024-08,True
+MID100247,kirana,tier_3,referral,qr_dynamic,Uttar Pradesh,9,False,False,0.3246,2025-05,False
+MID100248,apparel,tier_3,self_serve,qr_dynamic,Uttar Pradesh,-12,False,False,0.4265,2024-08,True
+MID100249,restaurant,tier_2,field_sales,qr_static,West Bengal,15,False,False,0.5183,2025-11,False
+MID100250,kirana,tier_2,referral,qr_static,Odisha,5,True,False,0.5821,2025-01,False
+MID100251,kirana,tier_2,referral,soundbox,Gujarat,17,False,True,0.7586,2026-01,False
+MID100252,grocery,tier_3,self_serve,soundbox,Karnataka,-14,False,False,0.3135,2024-08,True
+MID100253,electronics,tier_2,partner_bank,soundbox,Karnataka,-2,False,False,0.6038,2024-08,True
+MID100254,restaurant,tier_1,field_sales,qr_dynamic,Maharashtra,0,True,False,0.887,2024-08,False
+MID100255,grocery,tier_1,field_sales,qr_static,Karnataka,1,True,False,0.9349,2024-09,False
+MID100256,apparel,tier_3,partner_bank,soundbox,Karnataka,-10,False,False,0.2766,2024-08,True
+MID100257,pharmacy,tier_3,field_sales,qr_static,Kerala,-14,False,False,0.4104,2024-08,True
+MID100258,grocery,tier_3,partner_bank,pos,Gujarat,-12,False,False,0.152,2024-08,True
+MID100259,kirana,tier_1,field_sales,qr_static,Madhya Pradesh,11,True,False,0.8884,2025-07,False
+MID100260,fuel,tier_2,referral,qr_dynamic,Gujarat,-25,False,False,0.6654,2024-08,True
+MID100261,restaurant,tier_3,field_sales,soundbox,Punjab,15,False,False,0.3445,2025-11,False
+MID100262,grocery,tier_3,partner_bank,qr_dynamic,Maharashtra,-3,False,False,0.4041,2024-08,True
+MID100263,electronics,tier_2,referral,qr_static,Tamil Nadu,4,True,False,0.7052,2024-12,False
+MID100264,salon,tier_1,partner_bank,soundbox,Maharashtra,-7,True,False,0.8175,2024-08,True
+MID100265,pharmacy,tier_3,self_serve,pos,Madhya Pradesh,-19,False,False,0.3326,2024-08,True
+MID100266,pharmacy,tier_2,self_serve,qr_static,Bihar,19,False,False,0.5845,2026-03,False
+MID100267,grocery,tier_1,field_sales,soundbox,West Bengal,-15,False,False,0.8224,2024-08,True
+MID100268,kirana,tier_2,self_serve,soundbox,Uttar Pradesh,16,False,False,0.5053,2025-12,False
+MID100269,grocery,tier_1,field_sales,soundbox,Uttar Pradesh,-17,True,True,0.7433,2024-08,True
+MID100270,pharmacy,tier_2,partner_bank,qr_static,Uttar Pradesh,-26,True,False,0.6068,2024-08,True
+MID100271,restaurant,tier_1,field_sales,soundbox,Punjab,-10,False,True,0.8111,2024-08,True
+MID100272,salon,tier_1,self_serve,qr_static,Odisha,16,True,False,0.8282,2025-12,False
+MID100273,grocery,tier_2,partner_bank,qr_dynamic,Uttar Pradesh,-8,True,False,0.6405,2024-08,True
+MID100274,fuel,tier_3,self_serve,soundbox,Maharashtra,-1,False,False,0.2337,2024-08,True
+MID100275,services,tier_1,referral,qr_static,Maharashtra,0,False,False,0.8216,2024-08,False
+MID100276,services,tier_2,self_serve,qr_static,Tamil Nadu,2,False,False,0.6396,2024-10,False
+MID100277,restaurant,tier_3,field_sales,qr_static,Uttar Pradesh,13,False,False,0.4688,2025-09,False
+MID100278,kirana,tier_2,field_sales,soundbox,Odisha,4,False,False,0.3814,2024-12,False
+MID100279,kirana,tier_3,field_sales,soundbox,Karnataka,-23,False,False,0.3348,2024-08,True
+MID100280,restaurant,tier_3,self_serve,qr_dynamic,Maharashtra,7,True,True,0.3802,2025-03,False
+MID100281,grocery,tier_1,field_sales,soundbox,Telangana,-19,False,False,0.7399,2024-08,True
+MID100282,fuel,tier_2,self_serve,soundbox,Tamil Nadu,17,True,False,0.6686,2026-01,False
+MID100283,electronics,tier_1,field_sales,soundbox,Andhra Pradesh,-15,True,False,0.8134,2024-08,True
+MID100284,apparel,tier_3,referral,qr_static,Karnataka,-14,False,False,0.39,2024-08,True
+MID100285,fuel,tier_2,self_serve,qr_dynamic,Uttar Pradesh,-23,False,False,0.6418,2024-08,True
+MID100286,apparel,tier_3,self_serve,qr_static,Karnataka,-10,True,False,0.2648,2024-08,True
+MID100287,kirana,tier_1,referral,qr_static,West Bengal,-1,True,False,0.7789,2024-08,True
+MID100288,apparel,tier_2,self_serve,qr_static,Punjab,13,False,False,0.4379,2025-09,False
+MID100289,kirana,tier_3,field_sales,qr_static,Gujarat,-13,False,False,0.2807,2024-08,True
+MID100290,pharmacy,tier_2,field_sales,qr_static,Karnataka,-10,True,True,0.5394,2024-08,True
+MID100291,restaurant,tier_2,referral,soundbox,Odisha,13,False,False,0.6529,2025-09,False
+MID100292,electronics,tier_1,referral,soundbox,Bihar,6,False,False,0.6576,2025-02,False
+MID100293,apparel,tier_3,referral,soundbox,Uttar Pradesh,15,False,False,0.38,2025-11,False
+MID100294,grocery,tier_2,referral,soundbox,Tamil Nadu,-19,False,False,0.5625,2024-08,True
+MID100295,kirana,tier_2,self_serve,qr_static,Telangana,13,True,False,0.4932,2025-09,False
+MID100296,kirana,tier_3,referral,soundbox,Karnataka,-22,True,False,0.4097,2024-08,True
+MID100297,grocery,tier_3,field_sales,qr_static,Uttar Pradesh,-25,False,False,0.3734,2024-08,True
+MID100298,fuel,tier_1,partner_bank,qr_static,Telangana,15,False,False,0.7911,2025-11,False
+MID100299,restaurant,tier_2,self_serve,soundbox,Uttar Pradesh,20,True,False,0.4676,2026-04,False
+MID100300,apparel,tier_2,field_sales,qr_static,Tamil Nadu,2,True,False,0.5033,2024-10,False
+MID100301,salon,tier_3,referral,qr_static,Tamil Nadu,-12,False,False,0.3242,2024-08,True
+MID100302,apparel,tier_3,referral,soundbox,Maharashtra,-24,False,False,0.2231,2024-08,True
+MID100303,grocery,tier_3,self_serve,qr_static,Tamil Nadu,-10,False,False,0.3315,2024-08,True
+MID100304,electronics,tier_3,self_serve,soundbox,Uttar Pradesh,-25,False,True,0.3396,2024-08,True
+MID100305,kirana,tier_3,referral,qr_dynamic,Maharashtra,16,False,True,0.2618,2025-12,False
+MID100306,grocery,tier_1,field_sales,soundbox,Andhra Pradesh,-7,False,False,0.7189,2024-08,True
+MID100307,pharmacy,tier_2,partner_bank,qr_static,Maharashtra,-14,False,False,0.421,2024-08,True
+MID100308,kirana,tier_3,self_serve,soundbox,Karnataka,-22,False,False,0.3359,2024-08,True
+MID100309,salon,tier_3,field_sales,pos,Madhya Pradesh,-2,False,True,0.2705,2024-08,True
+MID100310,electronics,tier_2,field_sales,qr_static,Uttar Pradesh,-23,True,False,0.5399,2024-08,True
+MID100311,kirana,tier_3,self_serve,soundbox,Uttar Pradesh,12,False,False,0.4013,2025-08,False
+MID100312,kirana,tier_1,field_sales,qr_dynamic,Uttar Pradesh,-29,False,False,0.8756,2024-08,True
+MID100313,restaurant,tier_3,field_sales,qr_static,Andhra Pradesh,10,True,False,0.3068,2025-06,False
+MID100314,apparel,tier_3,field_sales,soundbox,Assam,13,True,False,0.3305,2025-09,False
+MID100315,apparel,tier_3,self_serve,pos,Maharashtra,10,False,False,0.3314,2025-06,False
+MID100316,services,tier_2,self_serve,qr_static,Karnataka,-24,True,False,0.6516,2024-08,True
+MID100317,kirana,tier_3,partner_bank,soundbox,Telangana,18,False,False,0.2398,2026-02,False
+MID100318,kirana,tier_3,self_serve,soundbox,Karnataka,1,False,False,0.1304,2024-09,False
+MID100319,kirana,tier_3,field_sales,qr_static,Karnataka,-25,False,False,0.3699,2024-08,True
+MID100320,apparel,tier_3,self_serve,soundbox,Karnataka,-27,True,False,0.2742,2024-08,True
+MID100321,pharmacy,tier_3,field_sales,qr_static,West Bengal,6,False,False,0.3676,2025-02,False
+MID100322,kirana,tier_3,field_sales,soundbox,Karnataka,-22,False,False,0.2534,2024-08,True
+MID100323,kirana,tier_3,referral,qr_static,Uttar Pradesh,8,False,False,0.3259,2025-04,False
+MID100324,kirana,tier_3,field_sales,soundbox,Telangana,3,False,False,0.3666,2024-11,False
+MID100325,grocery,tier_1,field_sales,soundbox,Bihar,11,True,False,0.7817,2025-07,False
+MID100326,apparel,tier_3,self_serve,qr_static,Uttar Pradesh,21,True,False,0.265,2026-05,False
+MID100327,grocery,tier_1,self_serve,soundbox,Maharashtra,-9,False,True,0.8559,2024-08,True
+MID100328,fuel,tier_3,referral,qr_static,Uttar Pradesh,-13,False,True,0.1726,2024-08,True
+MID100329,services,tier_3,self_serve,qr_static,Maharashtra,-9,False,True,0.3287,2024-08,True
+MID100330,services,tier_2,self_serve,soundbox,Uttar Pradesh,-17,True,True,0.5911,2024-08,True
+MID100331,pharmacy,tier_3,field_sales,pos,Uttar Pradesh,1,False,False,0.4252,2024-09,False
+MID100332,pharmacy,tier_3,field_sales,soundbox,Haryana,8,True,False,0.3303,2025-04,False
+MID100333,kirana,tier_3,referral,qr_dynamic,Karnataka,-12,False,False,0.3025,2024-08,True
+MID100334,kirana,tier_3,partner_bank,qr_static,Karnataka,20,False,False,0.1913,2026-04,False
+MID100335,kirana,tier_2,referral,qr_static,Tamil Nadu,-27,True,False,0.3209,2024-08,True
+MID100336,grocery,tier_3,referral,soundbox,Andhra Pradesh,6,True,False,0.2227,2025-02,False
+MID100337,electronics,tier_2,field_sales,soundbox,Rajasthan,0,True,False,0.4964,2024-08,False
+MID100338,restaurant,tier_1,self_serve,soundbox,Uttar Pradesh,-15,True,False,0.8643,2024-08,True
+MID100339,restaurant,tier_2,field_sales,qr_static,West Bengal,21,False,False,0.5763,2026-05,False
+MID100340,electronics,tier_2,partner_bank,qr_dynamic,Tamil Nadu,-21,True,False,0.5276,2024-08,True
+MID100341,restaurant,tier_2,field_sales,qr_dynamic,Madhya Pradesh,-11,False,True,0.5183,2024-08,True
+MID100342,electronics,tier_3,field_sales,qr_static,Uttar Pradesh,-17,True,False,0.3858,2024-08,True
+MID100343,grocery,tier_3,field_sales,qr_static,Assam,16,False,False,0.2605,2025-12,False
+MID100344,kirana,tier_3,field_sales,qr_static,Rajasthan,16,False,False,0.3798,2025-12,False
+MID100345,electronics,tier_1,self_serve,pos,Uttar Pradesh,-18,True,False,0.7842,2024-08,True
+MID100346,kirana,tier_2,partner_bank,qr_static,Telangana,20,False,False,0.5073,2026-04,False
+MID100347,kirana,tier_2,referral,qr_static,Maharashtra,4,False,True,0.6888,2024-12,False
+MID100348,pharmacy,tier_3,field_sales,soundbox,Rajasthan,21,False,False,0.315,2026-05,False
+MID100349,kirana,tier_1,field_sales,soundbox,Uttar Pradesh,-25,True,False,0.8568,2024-08,True
+MID100350,grocery,tier_2,field_sales,qr_static,Uttar Pradesh,6,False,False,0.5855,2025-02,False
+MID100351,kirana,tier_2,partner_bank,qr_static,Karnataka,-9,True,False,0.4836,2024-08,True
+MID100352,apparel,tier_1,field_sales,soundbox,Maharashtra,-25,False,False,0.8833,2024-08,True
+MID100353,restaurant,tier_3,field_sales,soundbox,Karnataka,-1,False,False,0.2318,2024-08,True
+MID100354,services,tier_3,field_sales,qr_static,Uttar Pradesh,1,False,False,0.3928,2024-09,False
+MID100355,apparel,tier_3,field_sales,soundbox,Uttar Pradesh,13,True,False,0.1683,2025-09,False
+MID100356,pharmacy,tier_3,field_sales,soundbox,West Bengal,-17,False,False,0.4102,2024-08,True
+MID100357,grocery,tier_1,field_sales,pos,Punjab,18,True,False,0.7252,2026-02,False
+MID100358,restaurant,tier_3,referral,qr_dynamic,Kerala,5,False,False,0.32,2025-01,False
+MID100359,electronics,tier_2,referral,soundbox,Uttar Pradesh,19,True,False,0.5721,2026-03,False
+MID100360,apparel,tier_1,field_sales,soundbox,Odisha,10,False,False,0.9044,2025-06,False
+MID100361,pharmacy,tier_1,field_sales,soundbox,Maharashtra,9,True,False,0.7067,2025-05,False
+MID100362,kirana,tier_2,self_serve,qr_static,West Bengal,7,True,False,0.5625,2025-03,False
+MID100363,grocery,tier_3,referral,qr_static,Haryana,-16,False,False,0.3554,2024-08,True
+MID100364,restaurant,tier_3,self_serve,qr_static,Punjab,-22,True,False,0.3684,2024-08,True
+MID100365,fuel,tier_2,self_serve,qr_dynamic,Tamil Nadu,-8,False,True,0.55,2024-08,True
+MID100366,restaurant,tier_3,field_sales,soundbox,Karnataka,-25,False,False,0.3858,2024-08,True
+MID100367,restaurant,tier_1,field_sales,qr_static,Andhra Pradesh,-24,True,False,0.7982,2024-08,True
+MID100368,restaurant,tier_3,self_serve,qr_static,Gujarat,-25,False,False,0.1939,2024-08,True
+MID100369,services,tier_3,self_serve,soundbox,Gujarat,-20,False,False,0.2644,2024-08,True
+MID100370,apparel,tier_3,partner_bank,qr_static,Maharashtra,1,True,False,0.2041,2024-09,False
+MID100371,pharmacy,tier_3,field_sales,soundbox,Karnataka,14,False,False,0.2961,2025-10,False
+MID100372,grocery,tier_2,referral,qr_static,Karnataka,17,False,False,0.5217,2026-01,False
+MID100373,services,tier_3,self_serve,qr_static,Kerala,14,False,False,0.246,2025-10,False
+MID100374,pharmacy,tier_2,partner_bank,soundbox,Punjab,-28,True,True,0.5612,2024-08,True
+MID100375,restaurant,tier_2,self_serve,soundbox,Madhya Pradesh,-20,False,False,0.5214,2024-08,True
+MID100376,restaurant,tier_2,self_serve,qr_static,Tamil Nadu,21,False,False,0.51,2026-05,False
+MID100377,kirana,tier_3,field_sales,soundbox,Punjab,1,False,False,0.3079,2024-09,False
+MID100378,restaurant,tier_3,field_sales,soundbox,Karnataka,19,True,False,0.3543,2026-03,False
+MID100379,restaurant,tier_2,field_sales,qr_static,Rajasthan,6,False,False,0.4606,2025-02,False
+MID100380,salon,tier_2,referral,soundbox,West Bengal,12,True,False,0.5454,2025-08,False
+MID100381,pharmacy,tier_3,self_serve,soundbox,Madhya Pradesh,-8,False,False,0.4072,2024-08,True
+MID100382,kirana,tier_2,partner_bank,qr_static,Madhya Pradesh,3,True,False,0.547,2024-11,False
+MID100383,kirana,tier_1,self_serve,qr_static,Bihar,9,True,True,0.7289,2025-05,False
+MID100384,pharmacy,tier_2,self_serve,soundbox,Telangana,-22,True,False,0.6836,2024-08,True
+MID100385,kirana,tier_2,field_sales,qr_static,Kerala,-16,False,False,0.7157,2024-08,True
+MID100386,fuel,tier_3,field_sales,qr_dynamic,Gujarat,12,False,False,0.3016,2025-08,False
+MID100387,apparel,tier_2,field_sales,soundbox,Uttar Pradesh,19,False,False,0.4736,2026-03,False
+MID100388,grocery,tier_1,self_serve,qr_dynamic,Uttar Pradesh,-6,False,False,0.9657,2024-08,True
+MID100389,kirana,tier_3,referral,qr_static,Maharashtra,-15,True,False,0.344,2024-08,True
+MID100390,salon,tier_2,self_serve,qr_dynamic,Bihar,9,True,True,0.6099,2025-05,False
+MID100391,kirana,tier_2,partner_bank,soundbox,Madhya Pradesh,-18,False,False,0.4352,2024-08,True
+MID100392,restaurant,tier_3,referral,soundbox,Uttar Pradesh,14,False,False,0.3015,2025-10,False
+MID100393,electronics,tier_3,field_sales,qr_static,Uttar Pradesh,21,False,False,0.2882,2026-05,False
+MID100394,pharmacy,tier_1,field_sales,soundbox,Haryana,-5,False,False,0.6601,2024-08,True
+MID100395,restaurant,tier_3,partner_bank,soundbox,Assam,-7,True,False,0.4362,2024-08,True
+MID100396,kirana,tier_3,field_sales,qr_dynamic,Maharashtra,4,False,False,0.2483,2024-12,False
+MID100397,kirana,tier_1,field_sales,soundbox,Maharashtra,21,False,False,0.7654,2026-05,False
+MID100398,services,tier_3,self_serve,qr_dynamic,Tamil Nadu,10,False,False,0.2931,2025-06,False
+MID100399,services,tier_1,self_serve,qr_dynamic,Maharashtra,-18,True,False,0.7728,2024-08,True
+MID100400,grocery,tier_2,field_sales,qr_static,Rajasthan,-1,False,False,0.6947,2024-08,True
+MID100401,salon,tier_3,self_serve,soundbox,Maharashtra,21,True,False,0.2373,2026-05,False
+MID100402,salon,tier_2,field_sales,soundbox,Rajasthan,16,True,False,0.5574,2025-12,False
+MID100403,pharmacy,tier_2,self_serve,soundbox,Uttar Pradesh,-15,False,False,0.6465,2024-08,True
+MID100404,electronics,tier_3,field_sales,qr_static,Uttar Pradesh,7,False,False,0.1507,2025-03,False
+MID100405,apparel,tier_3,referral,soundbox,Telangana,-26,True,False,0.4225,2024-08,True
+MID100406,salon,tier_3,self_serve,soundbox,Bihar,-9,False,False,0.2417,2024-08,True
+MID100407,grocery,tier_2,field_sales,pos,Bihar,-17,True,True,0.5786,2024-08,True
+MID100408,pharmacy,tier_3,referral,qr_static,Tamil Nadu,-14,True,False,0.3923,2024-08,True
+MID100409,kirana,tier_1,field_sales,qr_static,Uttar Pradesh,21,True,False,0.8161,2026-05,False
+MID100410,pharmacy,tier_1,field_sales,qr_static,Maharashtra,16,False,False,0.6337,2025-12,False
+MID100411,apparel,tier_2,self_serve,qr_static,West Bengal,-1,False,False,0.4893,2024-08,True
+MID100412,fuel,tier_1,field_sales,qr_static,Gujarat,-6,False,False,0.7412,2024-08,True
+MID100413,apparel,tier_3,self_serve,qr_static,Maharashtra,2,False,False,0.107,2024-10,False
+MID100414,kirana,tier_3,field_sales,soundbox,Uttar Pradesh,14,False,False,0.3249,2025-10,False
+MID100415,services,tier_3,referral,soundbox,Kerala,-16,False,False,0.4497,2024-08,True
+MID100416,restaurant,tier_3,field_sales,pos,Gujarat,5,False,False,0.3397,2025-01,False
+MID100417,services,tier_3,self_serve,qr_static,Uttar Pradesh,-14,False,True,0.2884,2024-08,True
+MID100418,kirana,tier_1,partner_bank,qr_dynamic,Telangana,-17,True,False,0.9086,2024-08,True
+MID100419,kirana,tier_1,partner_bank,qr_static,Assam,3,True,False,0.8308,2024-11,False
+MID100420,restaurant,tier_3,field_sales,qr_dynamic,Kerala,11,True,False,0.3315,2025-07,False
+MID100421,restaurant,tier_3,partner_bank,soundbox,Maharashtra,-20,False,False,0.3655,2024-08,True
+MID100422,apparel,tier_2,field_sales,pos,Punjab,-15,False,False,0.7626,2024-08,True
+MID100423,kirana,tier_1,field_sales,soundbox,Tamil Nadu,-24,False,False,0.9169,2024-08,True
+MID100424,grocery,tier_3,partner_bank,soundbox,Tamil Nadu,-14,False,False,0.2478,2024-08,True
+MID100425,grocery,tier_2,self_serve,qr_dynamic,Andhra Pradesh,6,False,False,0.5575,2025-02,False
+MID100426,pharmacy,tier_2,field_sales,soundbox,Bihar,-15,False,True,0.5269,2024-08,True
+MID100427,restaurant,tier_2,self_serve,soundbox,Bihar,3,False,False,0.52,2024-11,False
+MID100428,grocery,tier_3,partner_bank,soundbox,Gujarat,-18,False,False,0.3097,2024-08,True
+MID100429,kirana,tier_3,self_serve,qr_static,Kerala,21,False,True,0.3673,2026-05,False
+MID100430,kirana,tier_3,field_sales,qr_dynamic,Karnataka,5,False,False,0.2263,2025-01,False
+MID100431,kirana,tier_2,self_serve,soundbox,Assam,-25,False,False,0.653,2024-08,True
+MID100432,grocery,tier_2,partner_bank,qr_static,Uttar Pradesh,-29,True,False,0.6029,2024-08,True
+MID100433,grocery,tier_1,self_serve,qr_static,Punjab,4,True,True,0.8504,2024-12,False
+MID100434,apparel,tier_3,self_serve,qr_static,Andhra Pradesh,-20,False,False,0.4215,2024-08,True
+MID100435,kirana,tier_2,field_sales,qr_static,Andhra Pradesh,-9,False,False,0.5483,2024-08,True
+MID100436,restaurant,tier_2,self_serve,pos,Uttar Pradesh,4,False,False,0.7718,2024-12,False
+MID100437,grocery,tier_2,self_serve,soundbox,Haryana,-27,True,False,0.699,2024-08,True
+MID100438,fuel,tier_1,self_serve,qr_static,Uttar Pradesh,7,True,False,0.8652,2025-03,False
+MID100439,grocery,tier_3,self_serve,qr_static,Haryana,-28,False,False,0.362,2024-08,True
+MID100440,kirana,tier_2,field_sales,qr_dynamic,Uttar Pradesh,-1,True,False,0.5173,2024-08,True
+MID100441,grocery,tier_3,self_serve,qr_dynamic,Maharashtra,-23,True,False,0.392,2024-08,True
+MID100442,restaurant,tier_1,referral,pos,Uttar Pradesh,6,False,True,0.9647,2025-02,False
+MID100443,pharmacy,tier_3,field_sales,soundbox,Bihar,-6,False,False,0.3438,2024-08,True
+MID100444,restaurant,tier_3,partner_bank,qr_static,Uttar Pradesh,-29,False,False,0.1854,2024-08,True
+MID100445,fuel,tier_2,referral,soundbox,Uttar Pradesh,0,True,False,0.6718,2024-08,False
+MID100446,salon,tier_1,self_serve,qr_static,Karnataka,19,False,False,0.8503,2026-03,False
+MID100447,electronics,tier_1,field_sales,qr_static,Odisha,6,False,False,0.9536,2025-02,False
+MID100448,salon,tier_2,referral,qr_static,Uttar Pradesh,-29,True,False,0.6132,2024-08,True
+MID100449,kirana,tier_2,field_sales,qr_static,Tamil Nadu,7,True,False,0.6151,2025-03,False
+MID100450,kirana,tier_3,referral,soundbox,Madhya Pradesh,-29,True,False,0.3301,2024-08,True
+MID100451,apparel,tier_2,referral,qr_static,Punjab,13,False,False,0.6729,2025-09,False
+MID100452,electronics,tier_3,self_serve,soundbox,Karnataka,-22,False,False,0.3674,2024-08,True
+MID100453,grocery,tier_3,referral,qr_static,Gujarat,-20,False,False,0.329,2024-08,True
+MID100454,grocery,tier_2,referral,pos,Bihar,19,True,False,0.7439,2026-03,False
+MID100455,grocery,tier_1,self_serve,pos,Rajasthan,-4,True,False,0.9144,2024-08,True
+MID100456,kirana,tier_3,referral,qr_static,Kerala,6,False,True,0.3554,2025-02,False
+MID100457,kirana,tier_3,field_sales,qr_static,Madhya Pradesh,16,False,True,0.157,2025-12,False
+MID100458,salon,tier_3,field_sales,qr_static,Karnataka,1,False,True,0.2299,2024-09,False
+MID100459,apparel,tier_1,self_serve,qr_static,Gujarat,-10,False,False,0.8642,2024-08,True
+MID100460,pharmacy,tier_1,field_sales,soundbox,Uttar Pradesh,-20,True,False,0.8454,2024-08,True
+MID100461,pharmacy,tier_2,referral,qr_static,Uttar Pradesh,-3,False,False,0.5511,2024-08,True
+MID100462,restaurant,tier_3,field_sales,soundbox,Telangana,-17,True,True,0.2851,2024-08,True
+MID100463,grocery,tier_3,partner_bank,qr_static,Maharashtra,13,False,False,0.3527,2025-09,False
+MID100464,kirana,tier_2,field_sales,qr_static,Tamil Nadu,-25,False,False,0.5528,2024-08,True
+MID100465,grocery,tier_1,self_serve,soundbox,Maharashtra,-20,False,False,0.7999,2024-08,True
+MID100466,kirana,tier_3,self_serve,qr_static,Kerala,-21,True,False,0.3095,2024-08,True
+MID100467,apparel,tier_1,partner_bank,soundbox,Punjab,-8,False,False,0.6725,2024-08,True
+MID100468,apparel,tier_3,partner_bank,soundbox,Punjab,-2,True,False,0.2823,2024-08,True
+MID100469,restaurant,tier_2,self_serve,pos,Maharashtra,-5,True,False,0.454,2024-08,True
+MID100470,restaurant,tier_1,referral,pos,Rajasthan,14,False,False,0.8342,2025-10,False
+MID100471,restaurant,tier_3,referral,soundbox,Tamil Nadu,-22,False,False,0.5081,2024-08,True
+MID100472,kirana,tier_3,field_sales,qr_static,Uttar Pradesh,1,True,False,0.4075,2024-09,False
+MID100473,electronics,tier_2,field_sales,qr_static,Punjab,-23,True,False,0.5226,2024-08,True
+MID100474,apparel,tier_3,referral,soundbox,Uttar Pradesh,15,False,True,0.2734,2025-11,False
+MID100475,restaurant,tier_3,field_sales,soundbox,Telangana,16,False,False,0.2192,2025-12,False
+MID100476,fuel,tier_2,self_serve,soundbox,Tamil Nadu,-27,True,False,0.4184,2024-08,True
+MID100477,restaurant,tier_2,self_serve,qr_static,Bihar,8,False,False,0.4453,2025-04,False
+MID100478,apparel,tier_2,referral,qr_static,Uttar Pradesh,-10,False,False,0.5403,2024-08,True
+MID100479,fuel,tier_2,referral,qr_dynamic,Haryana,11,False,False,0.4403,2025-07,False
+MID100480,grocery,tier_1,partner_bank,soundbox,Kerala,17,True,True,0.8786,2026-01,False
+MID100481,pharmacy,tier_3,field_sales,soundbox,Punjab,9,False,False,0.2904,2025-05,False
+MID100482,restaurant,tier_1,self_serve,soundbox,Tamil Nadu,2,True,True,0.7598,2024-10,False
+MID100483,apparel,tier_2,referral,qr_static,Uttar Pradesh,10,False,False,0.6016,2025-06,False
+MID100484,kirana,tier_2,partner_bank,soundbox,Bihar,-21,True,False,0.5756,2024-08,True
+MID100485,apparel,tier_3,referral,soundbox,Haryana,11,True,False,0.2171,2025-07,False
+MID100486,electronics,tier_3,partner_bank,soundbox,Kerala,7,False,False,0.2291,2025-03,False
+MID100487,kirana,tier_3,partner_bank,soundbox,Maharashtra,-9,False,True,0.3561,2024-08,True
+MID100488,kirana,tier_3,field_sales,qr_static,Uttar Pradesh,15,False,False,0.3295,2025-11,False
+MID100489,kirana,tier_2,field_sales,soundbox,Andhra Pradesh,-6,True,False,0.6974,2024-08,True
+MID100490,kirana,tier_1,referral,qr_static,Tamil Nadu,8,False,False,0.7692,2025-04,False
+MID100491,salon,tier_3,partner_bank,qr_static,Haryana,-22,True,False,0.1914,2024-08,True
+MID100492,electronics,tier_3,field_sales,soundbox,Uttar Pradesh,0,False,False,0.271,2024-08,False
+MID100493,grocery,tier_3,field_sales,qr_static,Assam,18,False,False,0.5044,2026-02,False
+MID100494,kirana,tier_1,self_serve,qr_static,Bihar,-17,True,False,0.6518,2024-08,True
+MID100495,grocery,tier_3,field_sales,qr_dynamic,Uttar Pradesh,11,False,False,0.3451,2025-07,False
+MID100496,restaurant,tier_3,referral,pos,Madhya Pradesh,15,False,False,0.1657,2025-11,False
+MID100497,apparel,tier_1,field_sales,qr_dynamic,Karnataka,-10,True,False,0.7728,2024-08,True
+MID100498,apparel,tier_3,field_sales,qr_static,Madhya Pradesh,11,False,True,0.2025,2025-07,False
+MID100499,grocery,tier_3,self_serve,qr_static,Tamil Nadu,-21,True,False,0.3318,2024-08,True

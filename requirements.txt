@@ -1,0 +1,14 @@
+duckdb>=1.0
+pandas>=2.0
+numpy>=1.26
+pyarrow>=14.0
+scikit-learn>=1.4
+statsmodels>=0.14
+matplotlib>=3.8
+PyYAML>=6.0
+openpyxl>=3.1
+pytest>=8.0
+
+# dashboard (app.py)
+streamlit>=1.50
+plotly>=5.20
